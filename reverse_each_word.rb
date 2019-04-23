@@ -1,6 +1,8 @@
 require 'pry'
 
 def reverse_each_word(string)
-  binding.pry
   array = string.split
+  array.each do |word|
+    word.reverse!
+  end
 end
