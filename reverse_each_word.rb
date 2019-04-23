@@ -7,5 +7,6 @@ def reverse_each_word(string)
 end
 
 def reverse_each_word(string)
+  binding.pry
   string.split.collect { |word| word.reverse }
 end
